@@ -1,10 +1,10 @@
-# Distance Computations for PyTorch Functions (DCPF)
+# Spatial Distance Computations for PyTorch (SDCPT)
 
-DCPF is a tiny package that provides spatial functions for computing and validating PyTorch compatible distance matrices computations.
+SDCPT is a tiny package that provides functions for computing and validating PyTorch-compatible spatial distance matrices computations.
 
 ### Supported Distance Computations
 
-The current version (0.0.1) of DCPF supports the following distance computations:
+The current version (0.0.1) of SDCPT supports the following distance computations:
 
 - Jensen-Shannon Divergence Distance
 - Directed Hausdorff Distance
@@ -12,7 +12,7 @@ The current version (0.0.1) of DCPF supports the following distance computations
 
 ### Installation
 
-Before installing DCPF, ensure you meet the following prerequisites:
+Before installing SDCPT, ensure you meet the following prerequisites:
 
 - Python >= 3.10
 - PyTorch >= 2.0.0
@@ -23,10 +23,10 @@ If you don't have PyTorch 2.0.0 installed:
 $ pip install torch==2.0.0
 ```
 
-To install DCPF, please first clone the remote repository and use the following pip command:
+To install SDCPT, please first clone the remote repository and use the following pip command:
 
 ```bash
-$ git clone https://github.com/simugrad/DCPF
-$ cd DCPF
+$ git clone https://github.com/simugrad/SDCPT
+$ cd SDCPT
 $ pip install e .
 ```

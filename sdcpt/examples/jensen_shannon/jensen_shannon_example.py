@@ -1,6 +1,6 @@
 import torch
 
-from dcpf.distance.jensen_shannon import JensenShannonDiv
+from sdcpt.distance.jensen_shannon import JensenShannonDiv
 
 
 def test_JSD():

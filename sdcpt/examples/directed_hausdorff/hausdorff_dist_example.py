@@ -1,6 +1,6 @@
 import torch
 
-from dcpf.distance.hausdorff_dist import DirectedHausdorffDist
+from sdcpt.distance.hausdorff_dist import DirectedHausdorffDist
 
 
 def test_DirectsHausdorffDistance():

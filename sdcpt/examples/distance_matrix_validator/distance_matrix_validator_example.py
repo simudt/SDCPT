@@ -1,6 +1,6 @@
 import torch
 
-from dcpf.distance.validators.dm_validator import DistanceMatrixValidator
+from sdcpt.distance.validators.dm_validator import DistanceMatrixValidator
 
 
 def test_distance_matrix_validation():

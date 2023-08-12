@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="dcpf",
+    name="sdcpt",
     version="0.0.1",
     author="simugrad",
     author_email="simugradient@gmail.com",
     description="Spatial distance computations functions provided for PyTorch",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/simugrad/dcpf",
+    url="https://github.com/simugrad/SDCPT",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3.10",
