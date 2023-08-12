@@ -1,6 +1,6 @@
 # Spatial Distance Computations for PyTorch (SDCPT)
 
-SDCPT is a tiny package that provides functions for computing and validating PyTorch-compatible spatial distance matrices computations.
+SDCPT is a tiny package that provides PyTorch-compatible spatial distance matrices computations.
 
 ### Supported Distance Computations
 
