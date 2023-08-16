@@ -4,10 +4,16 @@ SDCPT is a tiny package that provides PyTorch-compatible spatial distance matric
 
 ### Supported Distance Computations
 
-The current version (0.0.1) of SDCPT supports the following distance computations:
+The current version (0.0.2) of SDCPT supports the following distance computations:
+
+#### Distance Functions
 
 - Jensen-Shannon Divergence Distance
 - Directed Hausdorff Distance
+- Bray-Curtis Distance
+
+#### Validators
+
 - Distance Matrix Validator
 
 ### Installation

@@ -28,7 +28,7 @@ class JensenShannonDiv:
 
         if size_average is not None or reduce is not None:
             warnings.warn(
-                "The arguments 'size_average' and 'reduce' are deprecated now. Use 'reduction' instead of this.",
+                "The arguments 'size_average' and 'reduce' are deprecated now. Use 'reduction' instead of this",
                 DeprecationWarning,
             )
             reduction = "sum" if not size_average and reduce else "none"
